@@ -1,0 +1,24 @@
+{
+  "name": "my-ku-enroller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "start": "node --loader ts-node/esm index.ts"
+  },
+  "keywords": [],
+  "author": "gongpha",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.9.5"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.9",
+    "ts-node": "^10.9.1",
+    "tsx": "^4.4.0",
+    "typescript": "^5.3.2"
+  }
+}
